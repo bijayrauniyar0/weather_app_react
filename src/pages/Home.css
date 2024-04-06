@@ -1,0 +1,59 @@
+.container{
+    margin: 30px auto 0;
+    width: 90%;
+    height: 88vh;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.111);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.449);
+    border-radius: 7px;
+}
+img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+.top-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.top-box .right{
+    position: absolute;
+    left: 45%;
+}
+.top-box .right h1{
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.forecast{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.forecast h2{
+    font-size: 1.5rem;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.search-box input{
+    margin: 0 10px;
+    padding: 9px 18px;
+    border-radius: 8px;
+    border: 1px solid black
+}
+.search-box button{
+    padding: 9px 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: #198cff;
+    cursor: pointer;
+    color: white;
+}
